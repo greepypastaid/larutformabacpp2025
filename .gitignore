@@ -1,0 +1,52 @@
+# Compiled object files
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (Linux)
+*.so
+
+# Dynamic libraries (Mac)
+*.dylib
+
+# Executables
+*.exe
+*.out
+*/output/*
+/Basic of CPP/output/*
+
+# Debug files
+*.dSYM/
+*.su
+
+# CMake build folder
+/build/
+/CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Temporary files
+*~
+# swap files
+.swp
+
+# Logs
+*.log
+
+# gtest
+test/*.o
