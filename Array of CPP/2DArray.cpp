@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-    string arr[3][4] = {
+    string arr[3][4] = { // aku bikin semua matriks ukuran 3x4
         { "Arr[0][0]", "Arr[0][1]", "Arr[0][2]", "Arr[0][3]" },
         { "Arr[1][0]", "Arr[1][1]", "Arr[1][2]", "Arr[1][3]" },
         { "Arr[2][0]", "Arr[2][1]", "Arr[2][2]", "Arr[2][3]" }

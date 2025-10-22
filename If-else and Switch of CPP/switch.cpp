@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    int day = 2;
+    int day = 5;
 
     switch (day) {
     case 1:

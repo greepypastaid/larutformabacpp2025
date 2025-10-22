@@ -1,5 +1,5 @@
 #include <iostream>
-#include <vector>
+#include <vector> // manggil fungsi vector
 
 using namespace std;
 
@@ -7,7 +7,7 @@ int main() {
     // Contoh: daftar belanja sederhana menggunakan vector<string>
     vector<string> daftar;
 
-    // Menambahkan elemen
+    // Menambahkan elemen ke paling belakang konsep queue
     daftar.push_back("Susu");
     daftar.push_back("Roti");
     daftar.push_back("Telur");
@@ -18,15 +18,20 @@ int main() {
         cout << "- " << daftar[i] << "\n";
     }
 
+    
     // Sisipkan item di index 1
     daftar.insert(daftar.begin() + 1, "Gula");
-
+    
     // Ubah elemen (misalnya index 2)
-    if (daftar.size() > 2) daftar[2] = "Roti Tawar";
-
+    if (daftar.size() > 2) {
+        daftar[2] = "Roti Tawar";
+    }
+    
+    daftar[1] = "KACANG";
+    
     // Hapus elemen terakhir
     daftar.pop_back();
-
+    
     // Urutkan secara alfabet
     sort(daftar.begin(), daftar.end());
 

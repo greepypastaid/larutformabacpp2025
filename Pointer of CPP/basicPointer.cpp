@@ -16,14 +16,13 @@ int main() {
     // check ukuran daripada pointer
     // gunakan fungsi sizeof()
 
-
-    int x = 10;
+    int x = 10; // x
     
     // mengisi address daripada alamat
     int *alamat = &x;
     
     // menampilkan address daripada x
-    cout << &x << endl;
+    cout << &x << endl; // ALAMAT DARI X
 
     // menampilkan isi dari x
     cout << x << endl;

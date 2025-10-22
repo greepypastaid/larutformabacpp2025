@@ -8,12 +8,12 @@ int luasPersegi(int sisi) { // int sisi itu parameter
 }
 
 int main() {
-    int s = 5;
+    int sisi = 5; // ukuran sisi persegi
 
-    // Memanggil fungsi dan menyimpan hasilnya
-    int area = luasPersegi(s);
+    // Memanggil fungsi dan menyimpan hasilnya cari luas
+    int area = luasPersegi(sisi); // kita memanggil sebuah hitungan diluar program utama
 
-    cout << "Sisi: " << s << "\n";
+    cout << "Sisi: " << sisi << "\n";
     cout << "Luas persegi: " << area << "\n";
 
     return 0;

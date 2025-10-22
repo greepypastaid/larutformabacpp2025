@@ -6,9 +6,18 @@ using namespace std;
 
 void menu() {
     cout << "=== Menu ===" << endl;
-    cout << "1. Option 1" << endl;
-    cout << "2. Option 2" << endl;
+    cout << "1. Nasi Goreng (13000)" << endl;
+    cout << "2. Mie Ayam (10000)" << endl;
     cout << "3. Exit" << endl;
+}
+
+int hargaMakanan(int choice, int satuan)
+{
+    if (choice == 1)
+        return 13000*satuan;
+    else if (choice == 2) {
+        return 10000*satuan;
+    }   
 }
 
 int main() {
@@ -16,14 +25,16 @@ int main() {
     
    cout << "Pilih opsi: ";
    int choice;
-   cin >> choice;
+   cin >> choice; // aku pilih nasgor = 1
 
-   while (choice != 3) {
-       cout << "Kamu memilih opsi " << choice << endl;
-       menu(); // Tampilkan menu lagi
-       cout << "Pilih opsi: ";
-       cin >> choice;
-   }
+   cout << "Masukkan jumlah porsi: ";
+   int porsi;
+   cin >> porsi; // masukkin poorsi 4
+
+   // aku masukkin sebuah nasgor dengan 4 porsi ke fungsi hargaMakanan
+   int total=hargaMakanan(choice, porsi);
+
+   cout << total;
 
    return 0;
 }
